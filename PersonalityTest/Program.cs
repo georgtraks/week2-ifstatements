@@ -13,7 +13,7 @@ namespace PersonalityTest
             //kui kasutaja sisestab miagi muud, kosool kuvab "oled ükssarvik";
 
             Console.WriteLine("mis su lemmikvärv?");
-            string UserColor = Console.ReadLine();
+            string UserColor = Console.ReadLine().ToLower();
 
             if(UserColor == "punane")
             {
